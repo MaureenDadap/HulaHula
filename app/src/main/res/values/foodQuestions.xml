@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foodQuestions">
+        <item>Masarap ba tong kasama sa noodles?</item>
+        <item>Pag nahulog ba to sa sahig kakainin mo parin?</item>
+        <item>Anong masarap isamang kainin dito?</item>
+        <item>Nastranded ka sa disyertong isla nang walang pagkain. May nakita kang box na puno ng pagkain na to. Gaano katagal ka makakasurvive mula dito?</item>
+        <item>Better hot or cold?</item>
+        <item>Gaano karaming tao ang nakakain na nito?</item>
+        <item>Pag nadapuan ba to ng langaw kakainin mo parin ba?</item>
+    </string-array>
+</resources>

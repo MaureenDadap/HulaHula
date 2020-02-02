@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foodArray">
+        <item>Cheese Stick</item>
+        <item>Fish Ball</item>
+        <item>Adobo</item>
+        <item>Cake</item>
+        <item>Pizza</item>
+        <item>Hotdog</item>
+        <item>Banana</item>
+        <item>Cupcake</item>
+        <item>Hot Sauce</item>
+        <item>Soy Sauce</item>
+        <item>Bagoong</item>
+        <item>Lugaw</item>
+        <item>Qwek Qwek</item>
+        <item>Nachos</item>
+        <item>Peewee</item>
+        <item>Pechay</item>
+        <item>Lemon Square Cheesecake</item>
+        <item>Fudgee Bar</item>
+        <item>Piatos</item>
+        <item>Cotton Candy</item>
+        <item>Yoghurt</item>
+        <item>Fried Chicken</item>
+        <item>Lollipop</item>
+        <item>Waffles</item>
+        <item>Buko Salad</item>
+        <item>Papaya</item>
+        <item>Lumpiang Shanghai</item>
+        <item>Sinigang</item>
+        <item>Asin</item>
+        <item>Champorado</item>
+        <item>Spaghetti</item>
+        <item>Pansit</item>
+        <item>Sopas</item>
+        <item>Burger</item>
+        <item>Iced Tea</item>
+        <item>Popcorn</item>
+        <item>Milk Tea</item>
+        <item>Samgyupsal</item>
+        <item>Noodles</item>
+        <item>Burger Steak</item>
+        <item>Roasted Chicken</item>
+        <item>Lechong Kawali</item>
+        <item>Tocino</item>
+        <item>Sorbetes</item>
+        <item>Coffee</item>
+        <item>Siomai</item>
+        <item>Siomai Rice</item>
+        <item>Chow Fan</item>
+        <item>Calamares</item>
+        <item>Kikiam</item>
+        <item>Palabok</item>
+        <item>Nilagang Itlog</item>
+        <item>Pastillas</item>
+        <item>Yema Cake</item>
+        <item>Leche Flan</item>
+        <item>Suman</item>
+        <item>Bulalo</item>
+        <item>Balot</item>
+        <item>Penoy</item>
+        <item>Proben</item>
+        <item>Bibingka</item>
+        <item>Buko Pie</item>
+        <item>Taho</item>
+        <item>Pandesal</item>
+        <item>Spanish Bread</item>
+        <item>Pan de Regla</item>
+        <item>Mango Graham Cake</item>
+    </string-array>
+<!--    <string name="food1">Cheese Stick</string>-->
+<!--    <string name="food2">Fish Ball</string>-->
+<!--    <string name="food3">Adobo</string>-->
+<!--    <string name="food4">Cake</string>-->
+<!--    <string name="food5">Pizza</string>-->
+<!--    <string name="food6">Hotdog</string>-->
+<!--    <string name="food7">Banana</string>-->
+<!--    <string name="food8">Cupcake</string>-->
+<!--    <string name="food9">Hot Sauce</string>-->
+<!--    <string name="food10">Soy Sauce</string>-->
+<!--    <string name="food11">Bagoong</string>-->
+<!--    <string name="food12">Lugaw</string>-->
+<!--    <string name="food13">Qwek Qwek</string>-->
+<!--    <string name="food14">Nachos</string>-->
+<!--    <string name="food15">Peewee</string>-->
+<!--    <string name="food16">Pechay</string>-->
+<!--    <string name="food17">Lemon Square Cheesecake</string>-->
+<!--    <string name="food18">Fudgee Bar</string>-->
+<!--    <string name="food19">Piatos</string>-->
+<!--    <string name="food20">Cotton Candy</string>-->
+<!--    <string name="food21">Yoghurt</string>-->
+<!--    <string name="food22">Fried Chicken</string>-->
+<!--    <string name="food23">Lollipop</string>-->
+<!--    <string name="food24">Waffles</string>-->
+<!--    <string name="food25">Buko Salad</string>-->
+</resources>

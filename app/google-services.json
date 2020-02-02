@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "821335742772",
+    "firebase_url": "https://hula-hula-c7a82.firebaseio.com",
+    "project_id": "hula-hula-c7a82",
+    "storage_bucket": "hula-hula-c7a82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821335742772:android:00673a0c42dbf9317f2d61",
+        "android_client_info": {
+          "package_name": "com.me.beep.hulahula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821335742772-3ar3443ofra9d2roel7fn883spb25v7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWNpbjzVLMl4HvJmlVRJTTlAY5b2wEhf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821335742772-3ar3443ofra9d2roel7fn883spb25v7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

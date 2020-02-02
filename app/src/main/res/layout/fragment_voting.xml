@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    tools:context=".Fragments.VotingFragment">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/kalos"
+        android:text="Pass this device to:"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/playerNameTv"
+        android:layout_width="320dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/porkys_regular"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <FrameLayout
+        android:id="@+id/wordLanding"
+        android:layout_width="399dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="208dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerNameTv"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wordCv"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="10dp">
+
+            <TextView
+                android:id="@+id/wordTv"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/grinched_regular"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="60sp" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/checkPlayerCb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:buttonTint="@android:color/white"
+        android:fontFamily="@font/kalos"
+        android:text="I'm name here"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/confirmBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordLanding"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/revealBtn"
+        android:layout_width="223dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@android:color/white"
+        android:elevation="2dp"
+        android:fontFamily="@font/porkys_regular"
+        android:text="Reveal !"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordLanding"
+        app:layout_constraintVertical_bias="0.699"
+        app:rippleColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/nextBtn2"
+        android:layout_width="223dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="3dp"
+        android:fontFamily="@font/porkys_regular"
+        android:text="Got It !"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:visibility="gone"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordLanding"
+        app:layout_constraintVertical_bias="0.699"
+        app:rippleColor="@color/colorPrimaryLight" />
+</androidx.constraintlayout.widget.ConstraintLayout>
